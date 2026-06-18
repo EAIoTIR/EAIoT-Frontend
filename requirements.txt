@@ -1,0 +1,18 @@
+# Core deep-learning stack
+# For CUDA-specific builds, install torch/torchvision from the official PyTorch selector first,
+# then install the remaining packages in this file.
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.23.0
+
+# ONNX export, simplification, and quantization
+onnx>=1.20
+onnxoptimizer>=0.3
+onnxruntime>=1.22
+onnxruntime-gpu>=1.22
+onnxscript>=0.5
+onnxsim>=0.4
+onnxslim>=0.1
+optimum-onnx>=0.1.0
+
+
