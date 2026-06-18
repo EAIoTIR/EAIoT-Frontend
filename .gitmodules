@@ -1,0 +1,3 @@
+[submodule "onnx2c"]
+	path = onnx2c
+	url = https://github.com/EAIoTIR/onnx2c.git
